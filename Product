@@ -1,0 +1,5 @@
+def product(*num):
+    sum = 1
+    for x in num:
+        sum = sum * x
+    return sum
